@@ -3,7 +3,7 @@
 ### Automated Functional testing for Swag Labs web.
 This repository contains an automated testing project for Swag Labs using Java, TestNG, Selenium, ChromeDriver, Maven, and Intellij IDEA. The tests are designed to cover various scenarios on the Sauce Demo website (https://www.saucedemo.com).
 
-Table of Contents
+### Table of Contents
 + Introduction
 + Scope
 + Features
@@ -12,12 +12,12 @@ Table of Contents
 + Installation Guide
 + Procedure
 
-Introduction
+### Introduction
 Test automation involves utilizing software tools and frameworks to automate the execution of tests, compare actual results with expected outcomes, and generate detailed test reports. This approach enhances the efficiency, accuracy, and consistency of testing processes while significantly reducing the time and costs associated with manual testing.
 
 In here we are going to test SWAG Labs (Sauce Demo - https://www.saucedemo.com). We are going to use tools and frameworks like ) with Selenium for the automation. This project focuses on automating tests for the Swag Labs website using TestNG and Selenium.
 
-Scope
+### Scope
 + The project covers the following areas of the Swag Labs website:
 + Login page for all accepted users and error scenarios.
 + Product page, including sorting features and View product Items.
@@ -25,13 +25,13 @@ Scope
 + Enter Details for Order Checkout and Calculate Total Prices
 + Placing Order
 
-Features
+### Features
 + TestNG is a widely-used testing framework for Java applications, used to run and manage test cases.
 + Uses Selenium for interacting with web elements and performing automated actions.
 + Organizes test scenarios using Gherkin syntax.
 + Includes a wide range of test cases covering login, product features, cart functionality, and more.
 
-Tools and Technologies Used
+### Tools and Technologies Used
 This test automation project for Swag Labs utilizes a variety of tools and technologies to streamline the testing process and ensure efficient and accurate results.
 + Java: The primary programming language used for writing the test automation code.
 + Selenium: A popular open-source framework for automating web browser interactions and testing.
@@ -43,10 +43,10 @@ This test automation project for Swag Labs utilizes a variety of tools and techn
 + IntelliJ IDEA: An integrated development environment for Java that provides a workspace for coding, testing, and debugging.
 + These technologies are combined to create an effective testing framework that automates test cases, performs comparisons between expected and actual outcomes, and generates detailed test reports.
 
-Test Cases
+### Test Cases
 The test cases are written in Gherkin syntax, providing a clear and concise representation of over 100 test scenarios. Each test case thoroughly addresses different aspects of the Swag Labs website, ensuring comprehensive test coverage.
 
-Installation Guide
+### Installation Guide
 Ensure that you have the following tools and technologies installed on your machine:
 + Java
 + Maven
@@ -54,7 +54,7 @@ Ensure that you have the following tools and technologies installed on your mach
 + Selenium 
 + Chrome driver
 
-Procedures
+### Procedures
 + Open the project in Intellij IDEA or your preferred IDE.
 + Navigate to the src/test/java directory.
 + Locate the test files. 
